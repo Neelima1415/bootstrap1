@@ -1,0 +1,89 @@
+h1{
+	font-family: Italic;
+	font-size: 40px;
+    color: brown;
+}
+
+
+h2 {
+	font-size: 26px;
+	border-bottom: 1px solid blueviolet;
+	text-transform: Uppercase;
+	padding-top: 30px;
+	margin-bottom: 25px;
+	text-align: left;
+    color:brown;
+	}
+
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover, .selected {
+color: black;
+}
+
+.navbar-header {
+	padding-block: 0px;
+	
+}
+
+#space1, #space2 ,#space3, #space4 {
+	padding-left: 42px;
+}
+
+p {
+font-size: 13px;
+line-height: 20px;
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin:auto;
+      width: 70%;
+	  height:70%;
+	  
+  }
+
+#myCarousel {
+	margin-top: 70px
+}
+.signs {
+    position: relative;
+	top:60px;
+	line-height: 20px;
+	font-size: 13px;
+}
+.signal {
+	position: relative;
+	top:40px;
+}
+
+#footer {
+clear: both;
+border-top: 1px solid #d1d1d1;
+padding-top: 18px;
+margin-top: 50px
+}
+
+#foot {
+font-size: 13px;
+float: left;
+color: #353535;
+}
+
+.icons {
+float: right;
+margin-top: 0;
+}
+
+@media (max-width: 650px) {
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+}
+
